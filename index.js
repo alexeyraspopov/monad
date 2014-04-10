@@ -33,6 +33,8 @@ exports.monad = function(modifier){
 		prototype[name] = function(){
 			return this.bind(fn, arguments);
 		};
+
+		return unit;
 	};
 
 	return unit;
