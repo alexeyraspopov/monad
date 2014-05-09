@@ -2,7 +2,7 @@
   "name": "monad",
   "description": "Lightweight monad implementation",
   "main": "index.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/alexeyraspopov/monad",
   "authors": [
     "Avenger7x <avenger7x13@gmail.com>"
