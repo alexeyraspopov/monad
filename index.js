@@ -9,7 +9,7 @@ exports.monad = function(modifier){
 		monad.bind = function(fn, args){
 			args = Array.prototype.slice.call(args || []);
 
-			return fn.apply(null, [value].concat(args));
+			return fn.apply(this, [value].concat(args));
 		};
 
 		if(typeof modifier === 'function'){
